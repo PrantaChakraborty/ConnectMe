@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>socialWebsite</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/styles2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-primary shadow-sm">
+        <div class="container"><a class="navbar-brand" href="#">ConnectMe</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">My Dashboard</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Images</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">People</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">User Name</a></li>
+                </ul>
+                <a class="btn btn-primary" role="button" id="btnlogin-1"><strong>Login</strong></a>
+                <a class="btn btn-primary" role="button" id="btnlogin-2"><strong>Sign Up</strong></a>
+            </div>
+        </div>
+    </nav>
+    {% block content %}
+    {% endblock content %}
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>

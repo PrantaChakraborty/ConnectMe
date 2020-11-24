@@ -1,0 +1,22 @@
+.bg-primary {
+  background-color: #0c2034!important;
+}
+
+#btnlogin-1 {
+  background-color: #008751;
+}
+
+#btnlogin-2 {
+  background-color: #007a3d;
+}
+
+#login-button {
+  background-color: #0c2034;
+}
+
+@media (min-width: 1200px) {
+  #login-form {
+    background: #f7f9fc;
+  }
+}
+
